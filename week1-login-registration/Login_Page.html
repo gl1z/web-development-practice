@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form>
+<h1>Login</h1>
+<label for="name">name</label>
+<input type="text" id="name"placeholder="Enter Name" required>
+<label for="Password">Password</label>
+<input type="password" id="password" placeholder="Enter Password" required>
+
+    <button type="button" onclick="showdetails()">Get my Details</button>
+
+    <script>
+        function showdetails() {
+            const name = document.getElementById('name').value;
+            const password = document.getElementById('password').value;
+
+            alert(name);
+            alert(password);
+        }
+    </script>
+
+</form>
+</body>
+</html>
+
+
+
+<!--DONT REPEAT YOURSELF-->
+<!--Function terminology-->
+<!--Think twice code once-->
+<!--When Developing a software keep in mind Time Comp and Space Comp-->
+<!--HTML -> Skeleton/Structure-->
+<!--CSS -> Style-->
+<!--JavaScript -> Make it functional-->
